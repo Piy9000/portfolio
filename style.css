@@ -1,0 +1,107 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    width: 100%;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    height: 100px;
+  }
+  .cont{
+    background-color: black;
+    width: 100%;
+  }
+  span{
+      color: aliceblue;
+  }
+  .nav-item{
+      padding-right: 30px;
+  }
+  .nav-link{
+      font-size: 20px;
+  }
+  .conta{
+    margin: auto;
+    text-align: center;
+  }
+  .conta h2{
+    padding-top: 20px;
+  }
+  #portfolio{
+    padding: 50px 0px;
+  }
+  .work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+  }
+  .work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  .work img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+  }
+  .work p{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .layer h3{
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .layer a{
+    color: #ff004f;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center ;
+  }
+  .work:hover img{
+    transform: scale(1.1);
+  }
+  .work:hover .layer{
+    height: 100%;
+  }
+  footer p {
+    padding-left: 10px;
+  }
+  footer ul{
+    padding-right: 10px;
+  }
+  #aboutus p button{
+    padding-top: 10px;
+    border-radius: 10px;
+  }
